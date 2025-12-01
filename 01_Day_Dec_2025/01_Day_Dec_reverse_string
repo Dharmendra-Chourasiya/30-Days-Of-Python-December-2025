@@ -1,0 +1,5 @@
+#You are given a string s, and your task is to reverse the string.
+
+str1 = input("enter your string : ")
+print(str1)
+print(str1[::-1])
