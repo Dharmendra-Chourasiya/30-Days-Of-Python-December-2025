@@ -96,12 +96,27 @@
 #     print(x)    
 
 # Wap to find the even no between 5 to 10
-start = 5
-end = 10
-count = 0
+# start = 5
+# end = 10
+# count = 0
 
-for x in range(start + 1, end, 2):
-    print(x)
-    count += 1
+# for x in range(start + 1, end, 2):
+#     print(x)
+#     count += 1
 
-print("Count:", count)
+# print("Count:", count)
+
+#----------------Wap to find factorial of n no.
+
+num = int(input("enter your no : "))
+# i=1
+fact=1
+# while(i<=num):
+#     fact=fact*i
+#     i=i+1
+# print(fact)    
+
+for x in range(1,num+1):
+    fact=fact*x
+
+print(fact)
